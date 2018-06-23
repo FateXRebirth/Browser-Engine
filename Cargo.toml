@@ -1,0 +1,12 @@
+[package]
+name = "rust-browser-engine"
+version = "0.0.1"
+authors = ["FateXRebirth <FateXRebirth@gmail.com>"]
+
+[[bin]]
+name = "rust-browser-engine"
+path = "src/main.rs"
+
+[dependencies]
+getopts = "0.2.3"
+image = "0.14"
